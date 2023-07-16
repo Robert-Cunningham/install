@@ -2,7 +2,7 @@
 Quickly install standard utilities
 ```
 sudo apt update
-sudo apt install curl htop nload ffmpeg
+sudo apt install curl htop nload ffmpeg tmux vim
 
 curl -fsSL https://tailscale.com/install.sh | sh
 
