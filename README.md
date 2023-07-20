@@ -14,6 +14,9 @@ chmod +x Miniconda3-py311_23.5.2-0-Linux-x86_64.sh
 curl -fsSL https://get.docker.com -o install-docker.sh
 sudo sh install-docker.sh
 
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+
 ```
 # Interactive
 ```
