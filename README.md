@@ -24,6 +24,8 @@ sudo apt-get install -y nodejs
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 tailscale login
 ./Miniconda3-py311_23.5.2-0-Linux-x86_64.sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 ```
 
 # After
