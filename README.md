@@ -1,3 +1,9 @@
+# Add a non-root user
+```
+sudo adduser robert
+sudo usermod -aG sudo robert
+```
+
 # install
 Quickly install standard utilities
 ```
@@ -33,8 +39,3 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo tailscale up --ssh
 ```
 
-# Add a non-root user
-```
-sudo adduser robert
-sudo usermod -aG sudo robert
-```
