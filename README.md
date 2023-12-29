@@ -34,5 +34,7 @@ sudo tailscale up --ssh
 ```
 
 # Add a non-root user
+```
 sudo adduser robert
 sudo usermod -aG sudo robert
+```
